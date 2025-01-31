@@ -56,7 +56,7 @@ public class Principal {
                     break;
                 case 5: // Salir
                     try {
-                        ConexionBaseDatos.cerrarConexion();
+                        ConexionBaseDatos.cerrarPool();
                         JOptionPane.showMessageDialog(null, "¡Hasta Luego!");
 
                     } catch (SQLException e) {

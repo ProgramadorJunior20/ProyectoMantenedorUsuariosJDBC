@@ -10,7 +10,8 @@ import java.util.List;
 public class UsuarioRepositorioImpl implements Repositorio<Usuario> {
 
     private Connection getConnection() throws SQLException {
-        return ConexionBaseDatos.getConexion();
+        return ConexionBaseDatos.getConnection();
+        //return ConexionBaseDatos.getConexion(); // De Singleton ConexionBaseDatos: Obtener instancia única de la conexión
     }
 
     @Override
