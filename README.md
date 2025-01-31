@@ -58,14 +58,6 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 4. Ejecuta la clase `Principal.java`.
 5. Sigue las instrucciones en los cuadros de diálogo para realizar las operaciones deseadas.
 
-## Capturas de Pantalla
-- **Menú Principal**
-![Menú Principal](ruta/a/imagen1.png)
-- **Crear Usuario**
-![Crear Usuario](ruta/a/imagen2.png)
-- **Listar Usuarios**
-![Listar Usuarios](ruta/a/imagen3.png)
-
 ## Tecnologías Utilizadas
 - **Java:** Lenguaje de programación principal.
 - **JDBC:** API para la conexión y operaciones con la base de datos.
